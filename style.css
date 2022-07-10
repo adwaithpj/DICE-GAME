@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #6E85B7;
+    color: #F8F9D7;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 15px 25px;
+    padding: 1.5rem;
+}
+
+
+/* Top header*/
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 9rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.header h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+/* dice part */
+
+#gamesection .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+#gamesection .dice {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#gamesection img {
+    margin-top: 15px;
+}
+
+
+/* button */
+
+.button1 {
+    padding: 20px 55px;
+    border-radius: 15px;
+    background-color: #C4D7E0;
+    color: #6E85B7;
+    border: 1px solid #C4D7E0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    transition: 250ms ease-in-out;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.33);
+}
+
+.button1:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:768px) {
+    .header h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 6rem;
+        font-weight: 800;
+        text-align: center;
+    }
+}
+
+@media (max-width:600px) {
+    .container {
+        margin: 15px 5px;
+        padding: 1.5rem;
+    }
+    .header h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.5rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    .header h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 20px;
+    }
+    img {
+        width: 90%;
+    }
+    .dice2 {
+        margin-left: 10px;
+    }
+    #gamesection .container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .button1 {
+        margin-top: 150px;
+        padding: 10px 35px;
+        border-radius: 15px;
+        background-color: #C4D7E0;
+        color: #6E85B7;
+        border: 1px solid #C4D7E0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 2rem;
+        transition: 250ms ease-in-out;
+        box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.33);
+    }
+    .button1:hover {
+        transform: scale(1.1);
+    }
+}
